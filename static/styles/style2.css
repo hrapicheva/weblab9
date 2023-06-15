@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#menu {
+    background-color: #f0f0f0;
+    /*    отступы*/
+    padding: 10px;
+    /*    автоматическое выравнивание по центру*/
+    margin: 0 auto;
+}
+
+#menu ul {
+    /*    отображение списка как гибкого контейнера*/
+    display: flex;
+    /*    выравнивание элементов по горизонтали с равномерным пространством между ними*/
+    justify-content: space-between;
+    /*    отключает стандартные маркеры списка*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    display: flex;
+    /*    выравнивание элементов по вертикали*/
+    align-items: center;
+}
+
+
+/*Стили для ссылок <a> в menu*/
+
+#menu ul li a {
+    color: #333;
+    padding: 10px;
+}
+
+#menu ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #333;
+    text-indent: 0px;
+}
+
+/* Стили для таблицы */
+
+table {
+    width: 350px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    table-layout: auto;
+    margin-bottom: 20px;
+    border: 3px solid #333;
+}
+
+table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+td p {
+    margin: 0;
+}
+
+table img[alt] {
+    filter: brightness(150%);
+}
+
+tbody tr td p {
+    white-space: nowrap;
+}
+
+.video-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Соотношение сторон 16:9 (Высота / Ширина * 100) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Стилизация списка определений */
+
+dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr + h2 {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#meaning {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#meaning:hover {
+    background-image: linear-gradient(to bottom, #ABC6C9 0%, #f0f0f0 0%, #ABC6C9 100%);
+}
+
+summary:hover {
+    transform: scale(1.1);
+}
+
+#meaning dl {
+    margin: 0;
+}
+
+#meaning dt,
+#meaning dd {
+    margin-bottom: 10px;
+}
+
+#text {
+    text-indent: 20px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#meaning a {
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#meaning a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#meaning a:visited {
+    color: #676E73;
+    text-decoration: underline;
+}
+
+#func{
+    display: flex;
+    justify-content: space-between;
+}
